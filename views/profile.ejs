@@ -1,0 +1,52 @@
+<%- include('header') %>
+  <link rel="stylesheet" href="stylesheets/home.css">
+
+
+  <header>
+    <a href="/profile"><i class="ri-home-8-line"></i></a>
+    <h1>Quiz App Dashboard</h1>
+    <a id="logout" href="/logout">Logout</a>
+  </header>
+  <div class="nav">
+
+    <h1>Welcome<span> <%= admin.username %> </span>play Quiz</h1>
+  </div>
+
+  <main>
+    <section class="quiz-category">
+      <h2>Hindi Quiz</h2>
+      <p>Test your knowledge in Hindi language</p>
+      <a href="/hindi">Start Quiz</a>
+    </section>
+
+    <section class="quiz-category">
+      <h2>English Quiz</h2>
+      <p>Challenge yourself with English language questions</p>
+      <a href="/english">Start Quiz</a>
+    </section>
+
+    <section class="quiz-category">
+      <h2>Math Quiz</h2>
+      <p>Test your mathematical skills</p>
+      <a href="/math">Start Quiz</a>
+    </section>
+
+    <section class="quiz-category">
+      <h2>computer Quiz</h2>
+      <p>Embark on a journey to challenge your computer prowess</p>
+      <a href="/computer">Start Quiz</a>
+    </section>
+
+    <section class="quiz-category">
+      <h2>General knowledge Quiz</h2>
+      <p>Explore the realms of trivia and challenge your general knowledge expertise</p>
+      <a href="/general">Start Quiz</a>
+    </section>
+  </main>
+
+  <footer>
+    <a href="mailto:rsen0537@gmail.com">&copy; 2024 Quiz App : By @Rohit Sen</a>
+  </footer>
+
+
+  <%- include('footer') %>
